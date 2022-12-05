@@ -10,6 +10,7 @@ namespace ApiRest.Controllers
     {
         //Client controller
         //feature
+        //Merge
         private readonly ConnetionDbContext context;
         CrudCliente Cliente;
 
