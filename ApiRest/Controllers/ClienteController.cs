@@ -8,7 +8,7 @@ namespace ApiRest.Controllers
     [Route("api/[controller]")]
     public class ClienteController : ControllerBase
     {
-
+        //Client controller
         private readonly ConnetionDbContext context;
         CrudCliente Cliente;
 
