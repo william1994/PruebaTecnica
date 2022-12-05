@@ -8,7 +8,7 @@ namespace ApiRest.Controllers
 {
     [Route("api/[controller]")]
     public class LibrosController : ControllerBase
-    {
+    {//GetAllBooks
         // GET: LibrosController
         private readonly ConnetionDbContext context;
         CrudLibros libros;
